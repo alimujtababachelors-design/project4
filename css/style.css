@@ -1,0 +1,161 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f2933;
+  background: #f4f7fb;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0f2d40, #1f4e6b);
+  color: #ffffff;
+  padding: 4rem 0 3rem;
+}
+
+.hero h1 {
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.lead {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.subheading {
+  color: #dbe8f0;
+  max-width: 46rem;
+}
+
+.hero-actions {
+  margin-top: 1.5rem;
+}
+
+.profile-card {
+  background: rgba(255, 255, 255, 0.96);
+  color: #1f2933;
+  border-radius: 1rem;
+  box-shadow: 0 0.75rem 2rem rgba(9, 29, 44, 0.16);
+}
+
+.profile-list li {
+  margin-bottom: 0.75rem;
+}
+
+.sticky-nav {
+  background: #ffffff;
+  border-bottom: 1px solid #d9e2ec;
+}
+
+.top-bar,
+.top-bar ul,
+.top-bar .menu,
+.top-bar .menu-text {
+  background: #ffffff;
+}
+
+.top-bar a {
+  color: #102a43;
+  font-weight: 600;
+}
+
+.section-block {
+  padding: 3.5rem 0;
+}
+
+.alt-bg {
+  background: #eaf1f7;
+}
+
+.accent-box {
+  background: #f0f8ff;
+  border-left: 0.35rem solid #1779ba;
+}
+
+.skill-box,
+.project-box,
+.timeline-box,
+.warning-box {
+  border-radius: 0.9rem;
+}
+
+.skill-box {
+  background: #ffffff;
+  height: 100%;
+  border: 1px solid #d9e2ec;
+}
+
+.experience-card {
+  height: 100%;
+  border: 1px solid #d9e2ec;
+  border-radius: 0.9rem;
+  box-shadow: 0 0.35rem 1rem rgba(15, 45, 64, 0.08);
+}
+
+.experience-card .card-section {
+  padding: 1.4rem;
+}
+
+.muted {
+  color: #52606d;
+  font-weight: 600;
+}
+
+.project-box {
+  background: #ffffff;
+  border: 1px solid #d9e2ec;
+}
+
+.timeline-box {
+  margin-top: 1.5rem;
+  background: #f8fbfd;
+  border-left: 0.35rem solid #0f2d40;
+}
+
+.warning-box {
+  background: #fffaf0;
+  border-left: 0.35rem solid #ffae00;
+}
+
+.dark-panel {
+  background: #102a43;
+  color: #ffffff;
+}
+
+.dark-panel h2,
+.dark-panel strong {
+  color: #ffffff;
+}
+
+.contact-list li {
+  margin-bottom: 0.6rem;
+}
+
+.site-footer {
+  background: #0b1f2a;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.callout,
+.card,
+.button {
+  border-radius: 0.9rem;
+}
+
+@media screen and (max-width: 63.9375em) {
+  .hero {
+    padding: 3.25rem 0 2.5rem;
+  }
+}
+
+@media screen and (max-width: 39.9375em) {
+  .lead {
+    font-size: 1.1rem;
+  }
+
+  .section-block {
+    padding: 2.5rem 0;
+  }
+}
